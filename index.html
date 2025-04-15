@@ -4,13 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projetos para Iniciantes - Patrick Flores</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body { padding-top: 60px; }
-    .project-card { margin-bottom: 20px; }
-  </style>
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Patrick Flores</a>
@@ -24,13 +26,15 @@
     </div>
   </nav>
 
-  <header class="text-white text-center py-5" style="background: linear-gradient(135deg, #1e3c72, #2a5298);">
-  <div class="container">
-    <h1 class="display-4 fw-bold mb-3">Projetos Simples e Úteis</h1>
-    <p class="lead">Feitos por quem começou do zero e quer ajudar quem está começando também</p>
-  </div>
-</header>
+  <!-- Cabeçalho moderno -->
+  <header class="hero-header">
+    <div class="container">
+      <h1>Projetos Simples e Úteis</h1>
+      <p>Feitos por quem começou do zero e quer ajudar quem está começando também</p>
+    </div>
+  </header>
 
+  <!-- Projetos -->
   <section id="projects" class="py-5">
     <div class="container">
       <h2 class="mb-4">Projetos</h2>
@@ -51,25 +55,25 @@
         </div>
       </div>
 
-      <!-- Adicione mais projetos aqui -->
-
     </div>
   </section>
 
+  <!-- Sobre -->
   <section id="sobre" class="bg-light py-5">
-  <div class="container">
-    <h2 class="mb-4">Sobre</h2>
-    <div class="row align-items-center">
-      <div class="col-md-3 text-center">
-        <img src="Patrick3x4.jpg" alt="Patrick Flores" class="img-fluid rounded shadow" style="max-width: 180px;">
-      </div>
-      <div class="col-md-9">
-        <p>Sou Patrick Flores, desenvolvedor que começou na TI aos 31 anos. Hoje, quero compartilhar projetos úteis e bem explicados para ajudar quem está iniciando nessa jornada. Acredito que com dedicação e orientação certa, qualquer um pode entrar no mundo da tecnologia.</p>
+    <div class="container">
+      <h2 class="mb-4">Sobre</h2>
+      <div class="row align-items-center">
+        <div class="col-md-3 text-center">
+          <img src="Patrick3x4.jpg" alt="Patrick Flores" class="img-fluid rounded shadow" style="max-width: 180px;">
+        </div>
+        <div class="col-md-9">
+          <p>Sou Patrick Flores, desenvolvedor que começou na TI aos 31 anos. Hoje, quero compartilhar projetos úteis e bem explicados para ajudar quem está iniciando nessa jornada. Acredito que com dedicação e orientação certa, qualquer um pode entrar no mundo da tecnologia.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Contato -->
   <section id="contato" class="py-5">
     <div class="container">
       <h2 class="mb-4">Contato</h2>
@@ -77,6 +81,7 @@
     </div>
   </section>
 
+  <!-- Rodapé -->
   <footer class="bg-dark text-white text-center py-3">
     <div class="container">
       <small>&copy; 2025 Patrick Flores. Todos os direitos reservados.</small>
